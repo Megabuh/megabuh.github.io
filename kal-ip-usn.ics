@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//GigaTool//nalog-calendar//RU
+BEGIN:VEVENT
+UID:nalog-20260427-0@gigatool
+DTSTART;VALUE=DATE:20260427
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: аванс по УСН за 1 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260428-1@gigatool
+DTSTART;VALUE=DATE:20260428
+SUMMARY:УПЛАТА: Аванс по УСН за 1 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260727-2@gigatool
+DTSTART;VALUE=DATE:20260727
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: аванс по УСН за 2 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260728-3@gigatool
+DTSTART;VALUE=DATE:20260728
+SUMMARY:УПЛАТА: Аванс по УСН за 2 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261026-4@gigatool
+DTSTART;VALUE=DATE:20261026
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: аванс по УСН за 3 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261028-5@gigatool
+DTSTART;VALUE=DATE:20261028
+SUMMARY:УПЛАТА: Аванс по УСН за 3 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261228-6@gigatool
+DTSTART;VALUE=DATE:20261228
+SUMMARY:УПЛАТА: Фиксированные взносы ИП за себя за 2026 год
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270426-7@gigatool
+DTSTART;VALUE=DATE:20270426
+SUMMARY:ОТЧЁТ: Декларация по УСН за 2026 год (ИП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270428-8@gigatool
+DTSTART;VALUE=DATE:20270428
+SUMMARY:УПЛАТА: Налог по УСН за 2026 год (ИП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270701-9@gigatool
+DTSTART;VALUE=DATE:20270701
+SUMMARY:УПЛАТА: Взносы ИП 1% с дохода свыше 300 тыс. за 2026 год
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+END:VCALENDAR

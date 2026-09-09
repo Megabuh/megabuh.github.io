@@ -1,0 +1,682 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//GigaTool//nalog-calendar//RU
+BEGIN:VEVENT
+UID:nalog-20260126-0@gigatool
+DTSTART;VALUE=DATE:20260126
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 1–22 01.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260128-1@gigatool
+DTSTART;VALUE=DATE:20260128
+SUMMARY:УПЛАТА: Уплата НДФЛ за 1–22 01.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260203-2@gigatool
+DTSTART;VALUE=DATE:20260203
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 23–конец 01.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260205-3@gigatool
+DTSTART;VALUE=DATE:20260205
+SUMMARY:УПЛАТА: Уплата НДФЛ за 23–конец 01.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260216-4@gigatool
+DTSTART;VALUE=DATE:20260216
+SUMMARY:УПЛАТА: Взносы на травматизм за 01.2026 (СФР, вне ЕНП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260225-5@gigatool
+DTSTART;VALUE=DATE:20260225
+SUMMARY:ОТЧЁТ: Персонифицированные сведения о физлицах за 01.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260225-6@gigatool
+DTSTART;VALUE=DATE:20260225
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: страховые взносы за 01.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260225-7@gigatool
+DTSTART;VALUE=DATE:20260225
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 1–22 02.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260302-8@gigatool
+DTSTART;VALUE=DATE:20260302
+SUMMARY:УПЛАТА: Уплата страховых взносов за 01.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260302-9@gigatool
+DTSTART;VALUE=DATE:20260302
+SUMMARY:УПЛАТА: Уплата НДФЛ за 1–22 02.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260303-10@gigatool
+DTSTART;VALUE=DATE:20260303
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 23–конец 02.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260305-11@gigatool
+DTSTART;VALUE=DATE:20260305
+SUMMARY:УПЛАТА: Уплата НДФЛ за 23–конец 02.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260316-12@gigatool
+DTSTART;VALUE=DATE:20260316
+SUMMARY:УПЛАТА: Взносы на травматизм за 02.2026 (СФР, вне ЕНП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260325-13@gigatool
+DTSTART;VALUE=DATE:20260325
+SUMMARY:ОТЧЁТ: Персонифицированные сведения о физлицах за 02.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260325-14@gigatool
+DTSTART;VALUE=DATE:20260325
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: страховые взносы за 02.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260325-15@gigatool
+DTSTART;VALUE=DATE:20260325
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 1–22 03.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260330-16@gigatool
+DTSTART;VALUE=DATE:20260330
+SUMMARY:УПЛАТА: Уплата страховых взносов за 02.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260330-17@gigatool
+DTSTART;VALUE=DATE:20260330
+SUMMARY:УПЛАТА: Уплата НДФЛ за 1–22 03.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260403-18@gigatool
+DTSTART;VALUE=DATE:20260403
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 23–конец 03.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260406-19@gigatool
+DTSTART;VALUE=DATE:20260406
+SUMMARY:УПЛАТА: Уплата НДФЛ за 23–конец 03.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260415-20@gigatool
+DTSTART;VALUE=DATE:20260415
+SUMMARY:УПЛАТА: Взносы на травматизм за 03.2026 (СФР, вне ЕНП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260427-21@gigatool
+DTSTART;VALUE=DATE:20260427
+SUMMARY:ОТЧЁТ: Персонифицированные сведения о физлицах за 03.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260427-22@gigatool
+DTSTART;VALUE=DATE:20260427
+SUMMARY:ОТЧЁТ: РСВ за 1 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260427-23@gigatool
+DTSTART;VALUE=DATE:20260427
+SUMMARY:ОТЧЁТ: ЕФС-1 (раздел 2, травматизм) за 1 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260427-24@gigatool
+DTSTART;VALUE=DATE:20260427
+SUMMARY:ОТЧЁТ: 6-НДФЛ за 1 кв. 2026 (нарастающим)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260427-25@gigatool
+DTSTART;VALUE=DATE:20260427
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 1–22 04.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260427-26@gigatool
+DTSTART;VALUE=DATE:20260427
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: аванс по УСН за 1 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260428-27@gigatool
+DTSTART;VALUE=DATE:20260428
+SUMMARY:УПЛАТА: Уплата страховых взносов за 03.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260428-28@gigatool
+DTSTART;VALUE=DATE:20260428
+SUMMARY:УПЛАТА: Уплата НДФЛ за 1–22 04.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260428-29@gigatool
+DTSTART;VALUE=DATE:20260428
+SUMMARY:УПЛАТА: Аванс по УСН за 1 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260504-30@gigatool
+DTSTART;VALUE=DATE:20260504
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 23–конец 04.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260505-31@gigatool
+DTSTART;VALUE=DATE:20260505
+SUMMARY:УПЛАТА: Уплата НДФЛ за 23–конец 04.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260515-32@gigatool
+DTSTART;VALUE=DATE:20260515
+SUMMARY:УПЛАТА: Взносы на травматизм за 04.2026 (СФР, вне ЕНП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260525-33@gigatool
+DTSTART;VALUE=DATE:20260525
+SUMMARY:ОТЧЁТ: Персонифицированные сведения о физлицах за 04.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260525-34@gigatool
+DTSTART;VALUE=DATE:20260525
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: страховые взносы за 04.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260525-35@gigatool
+DTSTART;VALUE=DATE:20260525
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 1–22 05.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260528-36@gigatool
+DTSTART;VALUE=DATE:20260528
+SUMMARY:УПЛАТА: Уплата страховых взносов за 04.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260528-37@gigatool
+DTSTART;VALUE=DATE:20260528
+SUMMARY:УПЛАТА: Уплата НДФЛ за 1–22 05.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260603-38@gigatool
+DTSTART;VALUE=DATE:20260603
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 23–конец 05.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260605-39@gigatool
+DTSTART;VALUE=DATE:20260605
+SUMMARY:УПЛАТА: Уплата НДФЛ за 23–конец 05.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260615-40@gigatool
+DTSTART;VALUE=DATE:20260615
+SUMMARY:УПЛАТА: Взносы на травматизм за 05.2026 (СФР, вне ЕНП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260625-41@gigatool
+DTSTART;VALUE=DATE:20260625
+SUMMARY:ОТЧЁТ: Персонифицированные сведения о физлицах за 05.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260625-42@gigatool
+DTSTART;VALUE=DATE:20260625
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: страховые взносы за 05.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260625-43@gigatool
+DTSTART;VALUE=DATE:20260625
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 1–22 06.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260629-44@gigatool
+DTSTART;VALUE=DATE:20260629
+SUMMARY:УПЛАТА: Уплата страховых взносов за 05.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260629-45@gigatool
+DTSTART;VALUE=DATE:20260629
+SUMMARY:УПЛАТА: Уплата НДФЛ за 1–22 06.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260703-46@gigatool
+DTSTART;VALUE=DATE:20260703
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 23–конец 06.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260706-47@gigatool
+DTSTART;VALUE=DATE:20260706
+SUMMARY:УПЛАТА: Уплата НДФЛ за 23–конец 06.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260715-48@gigatool
+DTSTART;VALUE=DATE:20260715
+SUMMARY:УПЛАТА: Взносы на травматизм за 06.2026 (СФР, вне ЕНП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260727-49@gigatool
+DTSTART;VALUE=DATE:20260727
+SUMMARY:ОТЧЁТ: Персонифицированные сведения о физлицах за 06.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260727-50@gigatool
+DTSTART;VALUE=DATE:20260727
+SUMMARY:ОТЧЁТ: РСВ за 2 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260727-51@gigatool
+DTSTART;VALUE=DATE:20260727
+SUMMARY:ОТЧЁТ: ЕФС-1 (раздел 2, травматизм) за 2 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260727-52@gigatool
+DTSTART;VALUE=DATE:20260727
+SUMMARY:ОТЧЁТ: 6-НДФЛ за 2 кв. 2026 (нарастающим)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260727-53@gigatool
+DTSTART;VALUE=DATE:20260727
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 1–22 07.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260727-54@gigatool
+DTSTART;VALUE=DATE:20260727
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: аванс по УСН за 2 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260728-55@gigatool
+DTSTART;VALUE=DATE:20260728
+SUMMARY:УПЛАТА: Уплата страховых взносов за 06.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260728-56@gigatool
+DTSTART;VALUE=DATE:20260728
+SUMMARY:УПЛАТА: Уплата НДФЛ за 1–22 07.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260728-57@gigatool
+DTSTART;VALUE=DATE:20260728
+SUMMARY:УПЛАТА: Аванс по УСН за 2 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260803-58@gigatool
+DTSTART;VALUE=DATE:20260803
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 23–конец 07.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260805-59@gigatool
+DTSTART;VALUE=DATE:20260805
+SUMMARY:УПЛАТА: Уплата НДФЛ за 23–конец 07.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260817-60@gigatool
+DTSTART;VALUE=DATE:20260817
+SUMMARY:УПЛАТА: Взносы на травматизм за 07.2026 (СФР, вне ЕНП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260825-61@gigatool
+DTSTART;VALUE=DATE:20260825
+SUMMARY:ОТЧЁТ: Персонифицированные сведения о физлицах за 07.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260825-62@gigatool
+DTSTART;VALUE=DATE:20260825
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: страховые взносы за 07.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260825-63@gigatool
+DTSTART;VALUE=DATE:20260825
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 1–22 08.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260828-64@gigatool
+DTSTART;VALUE=DATE:20260828
+SUMMARY:УПЛАТА: Уплата страховых взносов за 07.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260828-65@gigatool
+DTSTART;VALUE=DATE:20260828
+SUMMARY:УПЛАТА: Уплата НДФЛ за 1–22 08.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260903-66@gigatool
+DTSTART;VALUE=DATE:20260903
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 23–конец 08.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260907-67@gigatool
+DTSTART;VALUE=DATE:20260907
+SUMMARY:УПЛАТА: Уплата НДФЛ за 23–конец 08.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260915-68@gigatool
+DTSTART;VALUE=DATE:20260915
+SUMMARY:УПЛАТА: Взносы на травматизм за 08.2026 (СФР, вне ЕНП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260925-69@gigatool
+DTSTART;VALUE=DATE:20260925
+SUMMARY:ОТЧЁТ: Персонифицированные сведения о физлицах за 08.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260925-70@gigatool
+DTSTART;VALUE=DATE:20260925
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: страховые взносы за 08.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260925-71@gigatool
+DTSTART;VALUE=DATE:20260925
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 1–22 09.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260928-72@gigatool
+DTSTART;VALUE=DATE:20260928
+SUMMARY:УПЛАТА: Уплата страховых взносов за 08.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260928-73@gigatool
+DTSTART;VALUE=DATE:20260928
+SUMMARY:УПЛАТА: Уплата НДФЛ за 1–22 09.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261005-74@gigatool
+DTSTART;VALUE=DATE:20261005
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 23–конец 09.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261005-75@gigatool
+DTSTART;VALUE=DATE:20261005
+SUMMARY:УПЛАТА: Уплата НДФЛ за 23–конец 09.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261015-76@gigatool
+DTSTART;VALUE=DATE:20261015
+SUMMARY:УПЛАТА: Взносы на травматизм за 09.2026 (СФР, вне ЕНП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261026-77@gigatool
+DTSTART;VALUE=DATE:20261026
+SUMMARY:ОТЧЁТ: Персонифицированные сведения о физлицах за 09.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261026-78@gigatool
+DTSTART;VALUE=DATE:20261026
+SUMMARY:ОТЧЁТ: РСВ за 3 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261026-79@gigatool
+DTSTART;VALUE=DATE:20261026
+SUMMARY:ОТЧЁТ: ЕФС-1 (раздел 2, травматизм) за 3 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261026-80@gigatool
+DTSTART;VALUE=DATE:20261026
+SUMMARY:ОТЧЁТ: 6-НДФЛ за 3 кв. 2026 (нарастающим)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261026-81@gigatool
+DTSTART;VALUE=DATE:20261026
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 1–22 10.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261026-82@gigatool
+DTSTART;VALUE=DATE:20261026
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: аванс по УСН за 3 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261028-83@gigatool
+DTSTART;VALUE=DATE:20261028
+SUMMARY:УПЛАТА: Уплата страховых взносов за 09.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261028-84@gigatool
+DTSTART;VALUE=DATE:20261028
+SUMMARY:УПЛАТА: Уплата НДФЛ за 1–22 10.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261028-85@gigatool
+DTSTART;VALUE=DATE:20261028
+SUMMARY:УПЛАТА: Аванс по УСН за 3 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261103-86@gigatool
+DTSTART;VALUE=DATE:20261103
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 23–конец 10.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261105-87@gigatool
+DTSTART;VALUE=DATE:20261105
+SUMMARY:УПЛАТА: Уплата НДФЛ за 23–конец 10.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261116-88@gigatool
+DTSTART;VALUE=DATE:20261116
+SUMMARY:УПЛАТА: Взносы на травматизм за 10.2026 (СФР, вне ЕНП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261125-89@gigatool
+DTSTART;VALUE=DATE:20261125
+SUMMARY:ОТЧЁТ: Персонифицированные сведения о физлицах за 10.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261125-90@gigatool
+DTSTART;VALUE=DATE:20261125
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: страховые взносы за 10.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261125-91@gigatool
+DTSTART;VALUE=DATE:20261125
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 1–22 11.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261130-92@gigatool
+DTSTART;VALUE=DATE:20261130
+SUMMARY:УПЛАТА: Уплата страховых взносов за 10.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261130-93@gigatool
+DTSTART;VALUE=DATE:20261130
+SUMMARY:УПЛАТА: Уплата НДФЛ за 1–22 11.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261203-94@gigatool
+DTSTART;VALUE=DATE:20261203
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 23–конец 11.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261207-95@gigatool
+DTSTART;VALUE=DATE:20261207
+SUMMARY:УПЛАТА: Уплата НДФЛ за 23–конец 11.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261215-96@gigatool
+DTSTART;VALUE=DATE:20261215
+SUMMARY:УПЛАТА: Взносы на травматизм за 11.2026 (СФР, вне ЕНП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261225-97@gigatool
+DTSTART;VALUE=DATE:20261225
+SUMMARY:ОТЧЁТ: Персонифицированные сведения о физлицах за 11.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261225-98@gigatool
+DTSTART;VALUE=DATE:20261225
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: страховые взносы за 11.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261225-99@gigatool
+DTSTART;VALUE=DATE:20261225
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 1–22 12.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261228-100@gigatool
+DTSTART;VALUE=DATE:20261228
+SUMMARY:УПЛАТА: Уплата страховых взносов за 11.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261228-101@gigatool
+DTSTART;VALUE=DATE:20261228
+SUMMARY:УПЛАТА: Уплата НДФЛ за 1–22 12.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261230-102@gigatool
+DTSTART;VALUE=DATE:20261230
+SUMMARY:УВЕДОМЛЕНИЕ: Уведомление ЕНП: НДФЛ за 23–31 12.2026
+DESCRIPTION:п. 6 ст. 226 НК — последний рабочий день года, не январь
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261230-103@gigatool
+DTSTART;VALUE=DATE:20261230
+SUMMARY:УПЛАТА: Уплата НДФЛ за 23–31 12.2026
+DESCRIPTION:п. 6 ст. 226 НК — последний рабочий день года, не январь
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270115-104@gigatool
+DTSTART;VALUE=DATE:20270115
+SUMMARY:УПЛАТА: Взносы на травматизм за 12.2026 (СФР, вне ЕНП)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270125-105@gigatool
+DTSTART;VALUE=DATE:20270125
+SUMMARY:ОТЧЁТ: Персонифицированные сведения о физлицах за 12.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270125-106@gigatool
+DTSTART;VALUE=DATE:20270125
+SUMMARY:ОТЧЁТ: РСВ за год
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270125-107@gigatool
+DTSTART;VALUE=DATE:20270125
+SUMMARY:ОТЧЁТ: ЕФС-1 (раздел 2, травматизм) за 4 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270128-108@gigatool
+DTSTART;VALUE=DATE:20270128
+SUMMARY:УПЛАТА: Уплата страховых взносов за 12.2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270225-109@gigatool
+DTSTART;VALUE=DATE:20270225
+SUMMARY:ОТЧЁТ: 6-НДФЛ за 2026 год
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270325-110@gigatool
+DTSTART;VALUE=DATE:20270325
+SUMMARY:ОТЧЁТ: Декларация по УСН за 2026 год (организации)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270329-111@gigatool
+DTSTART;VALUE=DATE:20270329
+SUMMARY:УПЛАТА: Налог по УСН за 2026 год (организации)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270331-112@gigatool
+DTSTART;VALUE=DATE:20270331
+SUMMARY:ОТЧЁТ: Бухгалтерская отчётность за 2026 год
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+END:VCALENDAR

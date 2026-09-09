@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//GigaTool//nalog-calendar//RU
+BEGIN:VEVENT
+UID:nalog-20260427-0@gigatool
+DTSTART;VALUE=DATE:20260427
+SUMMARY:ОТЧЁТ: Декларация по НДС за 1 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260428-1@gigatool
+DTSTART;VALUE=DATE:20260428
+SUMMARY:УПЛАТА: Уплата 1/3 НДС за 1 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260528-2@gigatool
+DTSTART;VALUE=DATE:20260528
+SUMMARY:УПЛАТА: Уплата 1/3 НДС за 1 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260629-3@gigatool
+DTSTART;VALUE=DATE:20260629
+SUMMARY:УПЛАТА: Уплата 1/3 НДС за 1 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260727-4@gigatool
+DTSTART;VALUE=DATE:20260727
+SUMMARY:ОТЧЁТ: Декларация по НДС за 2 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260728-5@gigatool
+DTSTART;VALUE=DATE:20260728
+SUMMARY:УПЛАТА: Уплата 1/3 НДС за 2 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260828-6@gigatool
+DTSTART;VALUE=DATE:20260828
+SUMMARY:УПЛАТА: Уплата 1/3 НДС за 2 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20260928-7@gigatool
+DTSTART;VALUE=DATE:20260928
+SUMMARY:УПЛАТА: Уплата 1/3 НДС за 2 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261026-8@gigatool
+DTSTART;VALUE=DATE:20261026
+SUMMARY:ОТЧЁТ: Декларация по НДС за 3 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261028-9@gigatool
+DTSTART;VALUE=DATE:20261028
+SUMMARY:УПЛАТА: Уплата 1/3 НДС за 3 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261130-10@gigatool
+DTSTART;VALUE=DATE:20261130
+SUMMARY:УПЛАТА: Уплата 1/3 НДС за 3 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261228-11@gigatool
+DTSTART;VALUE=DATE:20261228
+SUMMARY:УПЛАТА: Уплата 1/3 НДС за 3 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20261228-12@gigatool
+DTSTART;VALUE=DATE:20261228
+SUMMARY:УПЛАТА: Фиксированные взносы ИП за себя за 2026 год
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270125-13@gigatool
+DTSTART;VALUE=DATE:20270125
+SUMMARY:ОТЧЁТ: Декларация по НДС за 4 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270128-14@gigatool
+DTSTART;VALUE=DATE:20270128
+SUMMARY:УПЛАТА: Уплата 1/3 НДС за 4 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270301-15@gigatool
+DTSTART;VALUE=DATE:20270301
+SUMMARY:УПЛАТА: Уплата 1/3 НДС за 4 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270329-16@gigatool
+DTSTART;VALUE=DATE:20270329
+SUMMARY:УПЛАТА: Уплата 1/3 НДС за 4 кв. 2026
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270430-17@gigatool
+DTSTART;VALUE=DATE:20270430
+SUMMARY:ОТЧЁТ: 3-НДФЛ за 2026 год (ИП на ОСНО)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270701-18@gigatool
+DTSTART;VALUE=DATE:20270701
+SUMMARY:УПЛАТА: Взносы ИП 1% с дохода свыше 300 тыс. за 2026 год
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+BEGIN:VEVENT
+UID:nalog-20270715-19@gigatool
+DTSTART;VALUE=DATE:20270715
+SUMMARY:УПЛАТА: НДФЛ за 2026 год (ИП на ОСНО)
+DESCRIPTION:Срок с учётом переноса по ст. 6.1 НК РФ
+END:VEVENT
+END:VCALENDAR

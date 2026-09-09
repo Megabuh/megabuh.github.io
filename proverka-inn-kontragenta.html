@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Как проверить ИНН контрагента перед оплатой: контрольное число ИНН (10 и 12 цифр), ОГРН/ОГРНИП, БИК и счёт. Проверка реквизитов онлайн.">
+<title>Проверить ИНН контрагента перед оплатой | Мегабухгалтерия</title>
+<style>
+  :root{--bg:#f3f6fa;--ink:#172536;--muted:#5b6b7d;--accent:#1f6b4a;--accent-soft:#e6f2ec;--line:#dbe3ee}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+  .wrap{max-width:900px;margin:0 auto;padding:2rem 1.25rem 3.5rem}
+  a{color:var(--accent)}
+  .back{display:inline-block;background:#fff;border:1px solid var(--line);border-radius:999px;padding:.35rem .9rem;font-size:.82rem;color:var(--muted);text-decoration:none}
+  h1{font-size:2.1rem;line-height:1.2;margin:.9rem 0 .4rem}
+  .meta{color:var(--muted);font-size:.85rem;margin-bottom:1.2rem}
+  h2{font-size:1.4rem;margin:1.8rem 0 .7rem}
+  p{line-height:1.7}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.2rem 1.4rem;margin:1rem 0}
+  table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.8rem 0}
+  th,td{padding:.6rem .7rem;text-align:left;border-bottom:1px solid var(--line)}
+  th{background:var(--accent-soft);font-weight:600}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:.75rem 1.4rem;border-radius:10px;font-weight:600;font-size:.98rem;text-align:center}
+  ul,ol{line-height:1.7}
+  .note{color:var(--muted);font-size:.82rem;margin-top:1.6rem;border-top:1px solid var(--line);padding-top:1rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← Мегабухгалтерия</a>
+  <h1>Проверить ИНН контрагента перед оплатой</h1>
+  <p class="meta">Реквизиты · контрольные числа</p>
+
+  <p>Перед оплатой важнее всего, чтобы деньги ушли <b>куда нужно</b>. Одна неверная цифра в ИНН или счёте — и платёж зависает или уходит не туда. Проверить реквизиты по контрольным числам можно быстро, без обращений к базам.</p>
+
+  <h2>Что проверяется по контрольному числу</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Реквизит</th><th>Контрольное число</th></tr></thead>
+      <tbody>
+        <tr><td>ИНН юрлица (10 цифр)</td><td>последняя цифра считается по весам 2-4-10-3-5-9-4-6-8</td></tr>
+        <tr><td>ИНН ИП/физлица (12 цифр)</td><td>две последние по весам</td></tr>
+        <tr><td>ОГРН (13 цифр)</td><td>остаток от деления на 11</td></tr>
+        <tr><td>ОГРНИП (15 цифр)</td><td>остаток от деления на 13</td></tr>
+        <tr><td>СНИЛС</td><td>сумма с весами 9…1, mod 101</td></tr>
+        <tr><td>БИК</td><td>структура, начинается с 04</td></tr>
+        <tr><td>Расчётный счёт (20 цифр)</td><td>ключевание с БИК (веса 7-1-3)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Что даёт такой проверки</h2>
+  <ul>
+    <li><b>Ловит опечатки</b> в номере до того, как деньги уйдут не туда.</li>
+    <li><b>Проверяет счёт@БИК</b> — ключуется ли номер счёта с банком.</li>
+    <li><b>Мгновенно</b> — не нужно ждать ответа служб.</li>
+  </ul>
+
+  <h2>Важная оговорка</h2>
+  <p>Проверка по контрольному числу подтверждает <b>корректность номера</b>, но не то, что организация существует и действует. Существование и статус контрагента (действующий/ликвидирован) проверяйте по ЕГРЮЛ (egrul.nalog.ru), актуальность БИК — по справочнику ЦБ.</p>
+
+  <h2>Проверить реквизиты онлайн</h2>
+  <p>Введите ИНН, ОГРН, СНИЛС, БИК или счёт (счёт@БИК) — сервис проверит по контрольным числам и покажет вердикт.</p>
+  <div class="card" style="text-align:center">
+    <a class="btn" href="rekvizity.html">Проверить реквизиты</a>
+    <p style="color:var(--muted);font-size:.85rem;margin:.6rem 0 0">150 ₽ за проверку — результат на экране</p>
+  </div>
+
+  <p class="note">Сервис подтверждает корректность номера по математике, но не статус организации. Для проверки контрагента в комплексе сверяйтесь с ЕГРЮЛ.</p>
+</div>
+</body>
+</html>

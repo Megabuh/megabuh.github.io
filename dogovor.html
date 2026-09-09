@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ревью договора — Мегабухгалтерия</title>
+<style>
+  :root{--bg:#f3f6fa;--ink:#172536;--muted:#5b6b7d;--accent:#1f6b4a;--accent-soft:#e6f2ec;--band:#24567a;--line:#dbe3ee;--gold:#b8860b}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+  .wrap{max-width:880px;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+  a{color:var(--accent)}
+  header{text-align:center;padding-bottom:1.2rem}
+  .back{display:inline-block;background:#fff;border:1px solid var(--line);border-radius:999px;padding:.35rem .9rem;font-size:.82rem;color:var(--muted);text-decoration:none;margin-bottom:1rem}
+  h1{font-size:2rem;line-height:1.15;margin:.3rem 0 .5rem}
+  h2{font-size:1.3rem;margin:0 0 1rem}
+  .sub{color:var(--muted);font-size:1.05rem;max-width:620px;margin:0 auto}
+  section{margin:2.2rem 0}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1.4rem 1.5rem}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:.85rem 1.5rem;border-radius:10px;font-weight:600;font-size:1rem;border:0;cursor:pointer;text-align:center}
+  .btn:hover{filter:brightness(1.06)}
+  .price{font-size:1.7rem;font-weight:800;margin:.3rem 0 .2rem}
+  .price small{font-size:.9rem;color:var(--muted);font-weight:500}
+  .steps{list-style:none;padding:0;margin:0;display:grid;gap:.9rem}
+  .steps li{display:flex;gap:.9rem;padding:.9rem 1rem;background:#fff;border:1px solid var(--line);border-radius:10px}
+  .steps .n{flex:0 0 auto;width:2rem;height:2rem;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .note{color:var(--muted);font-size:.8rem;margin-top:1.4rem}
+  @media(max-width:640px){h1{font-size:1.6rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="back" href="index.html">← Мегабухгалтерия</a><br>
+    <h1>Ревью договора</h1>
+    <p class="sub">Пришлите договор (.docx) — разберу существенные условия и риски по ГК РФ, пришлю отчёт с рекомендациями.</p>
+  </header>
+
+  <section>
+    <h2>Что входит в ревью</h2>
+    <div class="card">
+      <table>
+        <tbody>
+          <tr><td><b>Существенные условия</b></td><td>есть ли предмет, сроки, цена — без них договор не заключён (ст. 432 ГК)</td></tr>
+          <tr><td><b>Цена и НДС</b></td><td>актуальная ставка, формулировка «в т.ч. НДС» vs «кроме того»</td></tr>
+          <tr><td><b>Реквизиты сторон</b></td><td>ИНН, ОГРН, счета — битые реквизиты это стоп-фактор</td></tr>
+          <tr><td><b>Ответственность</b></td><td>неустойка, зеркальность, безлимитная ответственность</td></tr>
+          <tr><td><b>Расторжение и подсудность</b></td><td>односторонний отказ, автопролонгация, чей суд</td></tr>
+          <tr><td><b>Подписант</b></td><td>директор или доверенность (номер и дата)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Как отправить договор</h2>
+    <div class="card">
+      <ol class="steps">
+        <li><span class="n">1</span><div>Сохраните договор в <b>.docx</b> или <b>.txt</b></div></li>
+        <li><span class="n">2</span><div>Пришлите на почту <a href="mailto:kopalex@inbox.ru"><b>kopalex@inbox.ru</b></a> — в теме укажите «Ревью договора»</div></li>
+        <li><span class="n">3</span><div>Получите отчёт с разбором рисков и готовыми правками</div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <h2>Цена</h2>
+    <div class="card">
+      <div class="price">990 ₽<small> / документ</small></div>
+      <p style="margin:.8rem 0 0;color:var(--muted)">Оплата — по СБП или переводу. После ревью пришлю отчёт и чек из «Мой налог».</p>
+    </div>
+  </section>
+
+  <section style="text-align:center">
+    <a class="btn" href="mailto:kopalex@inbox.ru?subject=Ревью договора">Отправить договор на почту</a>
+  </section>
+
+  <p class="note">Это аналитическая поддержка, а не юридическая консультация. Для сделок с существенными суммами рекомендуем юриста. Проверка ИНН/ОГРН — математическая; статус контрагента сверяйте по ЕГРЮЛ.</p>
+</div>
+</body>
+</html>

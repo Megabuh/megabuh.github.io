@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Налоговый календарь 2026 — Мегабухгалтерия</title>
+<style>
+  :root{--bg:#f3f6fa;--ink:#172536;--muted:#5b6b7d;--accent:#1f6b4a;--accent-soft:#e6f2ec;--band:#24567a;--line:#dbe3ee;--gold:#b8860b}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+  .wrap{max-width:860px;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+  header{text-align:center;padding-bottom:1.2rem}
+  .back{display:inline-block;background:#fff;border:1px solid var(--line);border-radius:999px;padding:.35rem .9rem;font-size:.82rem;color:var(--muted);text-decoration:none;margin-bottom:1rem}
+  h1{font-size:2rem;line-height:1.15;margin:.3rem 0 .5rem}
+  h2{font-size:1.3rem;margin:0 0 1rem}
+  .sub{color:var(--muted);font-size:1.05rem;max-width:620px;margin:0 auto}
+  section{margin:2.2rem 0}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1.4rem 1.5rem}
+  .field{display:flex;flex-direction:column;margin-bottom:1rem}
+  .field label{font-size:.85rem;color:var(--muted);margin-bottom:.35rem}
+  .field select,.field input{padding:.7rem .8rem;border:1px solid var(--line);border-radius:8px;font-size:1rem;background:#fff}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:.75rem 1.4rem;border-radius:10px;font-weight:600;font-size:.98rem;border:0;cursor:pointer;text-align:center}
+  .btn:hover{filter:brightness(1.06)}
+  .btn:disabled{opacity:.6;cursor:not-allowed}
+  .price{font-size:1.6rem;font-weight:800;margin:.4rem 0 .2rem}
+  .price small{font-size:.9rem;color:var(--muted);font-weight:500}
+  .pay{background:#fff;border:2px solid var(--accent);border-radius:16px;padding:1.6rem 1.8rem;text-align:center;margin-top:1rem;display:none}
+  .pay.show{display:block}
+  .pay .amount{font-size:2rem;font-weight:800;margin:.4rem 0}
+  .pay p{color:var(--muted);margin:.3rem 0 1.2rem}
+  .spinner{display:none;margin-top:1rem;color:var(--muted)}
+  .result{margin-top:1rem;display:none;text-align:center}
+  .result.show{display:block}
+  .result .files{display:grid;gap:.7rem;margin:.8rem 0;text-align:left}
+  .result .files a{display:flex;align-items:center;gap:.7rem;background:var(--accent-soft);border:1px solid var(--line);border-radius:10px;padding:.8rem 1rem;text-decoration:none;color:var(--ink);font-weight:600}
+  .result .files .small{font-weight:400;color:var(--muted);font-size:.82rem}
+  .note{color:var(--muted);font-size:.8rem;margin-top:1.4rem}
+  @media(max-width:640px){h1{font-size:1.6rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="back" href="index.html">← Мегабухгалтерия</a><br>
+    <h1>Налоговый календарь 2026</h1>
+    <p class="sub">Персональный график отчётности и платежей по ЕНП/ЕНС. Выберите профиль — получите готовый .xlsx и .ics.</p>
+  </header>
+
+  <section>
+    <h2>Собрать календарь</h2>
+    <div class="card">
+      <div class="field">
+        <label>Профиль</label>
+        <select id="prof">
+          <option value="ooo-usn">ООО на УСН</option>
+          <option value="ooo-osno">ООО на ОСНО</option>
+          <option value="ip-usn">ИП на УСН</option>
+          <option value="ip-osno">ИП на ОСНО</option>
+          <option value="ooo-usn-nds">ООО на УСН + НДС</option>
+        </select>
+      </div>
+      <div style="margin-top:.6rem"><button class="btn" id="btn">Выбрать профиль</button></div>
+      <div class="spinner" id="spin">Обработка…</div>
+      <div class="pay" id="pay">
+        <div class="amount">2 900 ₽</div>
+        <p>Календарь <span id="profName">ООО на УСН</span> — файл .xlsx и .ics.</p>
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdb_N9cOBOY6Ch4CEuRuPWRiju9ehNmEI8LEUpsbWCeT0iSqQ/viewform" target="_blank" rel="noopener" id="payBtn">Оставить заявку</a>
+        <p style="font-size:.82rem;margin-top:.8rem">Оплата — по СБП. Реквизиты пришлю после заявки. После оплаты — чек из «Мой налог».</p>
+      </div>
+      <p class="note" style="margin-top:1rem">После отправки заявки пришлю реквизиты для оплаты. После оплаты вышлю файлы .xlsx и .ics на вашу почту.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Что внутри</h2>
+    <div class="card">
+      <table>
+        <tbody>
+          <tr><td><b>Дашборд</b></td><td>сводка и ближайшие сроки</td></tr>
+          <tr><td><b>Календарь</b></td><td>все события по месяцам с переносами</td></tr>
+          <tr><td><b>Статистика</b></td><td>по типам и месяцам</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--muted);font-size:.85rem;margin:.8rem 0 0">Формат .xlsx — для бухгалтерии, .ics — импорт в календарь (Google, Яндекс, Outlook).</p>
+    </div>
+  </section>
+
+  <p class="note">Данные актуальны на июль 2026. Покрываются типовые федеральные формы; отраслевые и региональные налоги уточняйте у бухгалтера. Календарь — план-напоминалка, а не консультация.</p>
+</div>
+
+<script>
+var PROFILES={
+  'ooo-usn':{name:'ООО на УСН',xlsx:'kal-ooo-usn.xlsx',ics:'kal-ooo-usn.ics'},
+  'ooo-osno':{name:'ООО на ОСНО',xlsx:'kal-ooo-osno.xlsx',ics:'kal-ooo-osno.ics'},
+  'ip-usn':{name:'ИП на УСН',xlsx:'kal-ip-usn.xlsx',ics:'kal-ip-usn.ics'},
+  'ip-osno':{name:'ИП на ОСНО',xlsx:'kal-ip-osno.xlsx',ics:'kal-ip-osno.ics'},
+  'ooo-usn-nds':{name:'ООО на УСН + НДС',xlsx:'kal-ooo-usn-nds.xlsx',ics:'kal-ooo-usn-nds.ics'}
+};
+var profSel=document.getElementById('prof');
+document.getElementById('profName').textContent=PROFILES[profSel.value].name;
+profSel.onchange=function(){document.getElementById('profName').textContent=PROFILES[profSel.value].name;};
+document.getElementById('btn').onclick=function(){document.getElementById('pay').classList.add('show');document.getElementById('res').classList.remove('show');document.getElementById('pay').scrollIntoView({behavior:'smooth',block:'center'});};
+</script>
+</body>
+</html>

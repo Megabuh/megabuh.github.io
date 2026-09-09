@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Что такое красное сальдо в оборотно-сальдовой ведомости: причины (пересорт, непроведённые документы, ошибка последовательности), как найти и исправить. Проверка ОСВ онлайн.">
+<title>Красное сальдо в ОСВ — что это и как исправить | Мегабухгалтерия</title>
+<style>
+  :root{--bg:#f3f6fa;--ink:#172536;--muted:#5b6b7d;--accent:#1f6b4a;--accent-soft:#e6f2ec;--line:#dbe3ee}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+  .wrap{max-width:900px;margin:0 auto;padding:2rem 1.25rem 3.5rem}
+  a{color:var(--accent)}
+  .back{display:inline-block;background:#fff;border:1px solid var(--line);border-radius:999px;padding:.35rem .9rem;font-size:.82rem;color:var(--muted);text-decoration:none}
+  h1{font-size:2.1rem;line-height:1.2;margin:.9rem 0 .4rem}
+  .meta{color:var(--muted);font-size:.85rem;margin-bottom:1.2rem}
+  h2{font-size:1.4rem;margin:1.8rem 0 .7rem}
+  p{line-height:1.7}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.2rem 1.4rem;margin:1rem 0}
+  table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.8rem 0}
+  th,td{padding:.6rem .7rem;text-align:left;border-bottom:1px solid var(--line)}
+  th{background:var(--accent-soft);font-weight:600}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:.75rem 1.4rem;border-radius:10px;font-weight:600;font-size:.98rem;text-align:center}
+  ul,ol{line-height:1.7}
+  .note{color:var(--muted);font-size:.82rem;margin-top:1.6rem;border-top:1px solid var(--line);padding-top:1rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← Мегабухгалтерия</a>
+  <h1>Что такое красное сальдо в оборотно-сальдовой ведомости</h1>
+  <p class="meta">Обработка выгрузок 1С</p>
+
+  <p><b>Красное сальдо</b> — это отрицательный остаток на счёте, где его не может быть. Например, кредитовый остаток по кассе (счёт 50), расчётному счёту (51) или по материалам (10): денег или товара не может быть меньше ноля. В ОСВ такой остаток «краснеет» — и это сигнал, что в базе ошибка.</p>
+
+  <h2>На каких счетах красное сальдо — ошибка</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Счёт</th><th>Что означает красное</th></tr></thead>
+      <tbody>
+        <tr><td>50 Касса</td><td>денег в кассе меньше ноля — ищи непроведённый приходный ордер</td></tr>
+        <tr><td>51 Расчётный счёт</td><td>уходишь в минус по банку</td></tr>
+        <tr><td>10 Материалы, 41 Товары, 43 Готовая продукция</td><td>продали то, чего не оприходовали</td></tr>
+        <tr><td>20, 25, 26 Затраты</td><td>списали больше, чем накопили</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Типичные причины</h2>
+  <ul>
+    <li><b>Пересорт</b> — приход и списание одного товара, а учитывали его неправильно.</li>
+    <li><b>Продажа непринятого товара</b> — отгрузили, но не провели поступление.</li>
+    <li><b>Ошибка последовательности проведения документов</b> — списали раньше, чем оприходовали.</li>
+    <li><b>Непроведённые документы</b> — ордер или накладная не проведены, а списание прошло.</li>
+  </ul>
+
+  <h2>Как исправить</h2>
+  <ol>
+    <li>Найти документ, по которому возник минус (обычно это конец месяца, незакрытый период).</li>
+    <li>Проверить последовательность: сначала приход, потом списание.</li>
+    <li>Провести недостающие документы или исправить пересорт.</li>
+    <li>Перепровести месяц заново и проверить, что сальдо ушло в ноль.</li>
+  </ol>
+
+  <h2>Важно про активно-пассивные счета</h2>
+  <p>По счёту 60 (расчёты с поставщиками) и 62 (покупатели) развёрнутое сальдо — норма (авансы, переплаты). Красное сальдо по субсчетам 60.02 и 62.02 (авансы) <b>не является ошибкой</b> — это обычные авансы и переплаты. Сервис проверки ОСВ не флагует их как ошибку автоматически.</p>
+
+  <h2>Проверить ОСВ онлайн</h2>
+  <p>Загрузите вашу оборотно-сальдовую ведомость (.csv/.txt из 1С) — сервис найдёт красные сальдо, разбаланс Дт/Кт и ошибки арифметики по счетам, покажет результат на экране.</p>
+  <div class="card" style="text-align:center">
+    <a class="btn" href="osv.html">Проверить ОСВ</a>
+    <p style="color:var(--muted);font-size:.85rem;margin:.6rem 0 0">490 ₽ за проверку — результат сразу на экране</p>
+  </div>
+
+  <p class="note">Проверка автоматическая и подтверждает корректность расчётов, но не заменяет аудит. Для сложных случаев рекомендую бухгалтера.</p>
+</div>
+</body>
+</html>

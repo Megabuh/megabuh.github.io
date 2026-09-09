@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Мегабухгалтерия — бухгалтерские сервисы для малого бизнеса и аутсорса</title>
+<style>
+  :root{--bg:#f3f6fa;--ink:#172536;--muted:#5b6b7d;--accent:#1f6b4a;--accent-soft:#e6f2ec;--band:#24567a;--line:#dbe3ee;--gold:#b8860b}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+  .wrap{max-width:1040px;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+  header{text-align:center;padding-bottom:1.4rem}
+  .brand{font-size:2.6rem;font-weight:800;letter-spacing:-0.01em;color:var(--accent)}
+  .brand span{color:var(--ink)}
+  .tagline{color:var(--muted);font-size:1.15rem;max-width:640px;margin:.5rem auto 0}
+  .badges{display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;margin-top:1.1rem}
+  .badge{background:#fff;border:1px solid var(--line);border-radius:999px;padding:.35rem .9rem;font-size:.82rem;color:var(--muted);font-weight:600}
+  section{margin:3rem 0}
+  h2{font-size:1.5rem;margin:0 0 1.2rem}
+  .center{text-align:center}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
+  .svc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1.3rem 1.4rem;display:flex;flex-direction:column;position:relative}
+  .svc .tag{position:absolute;top:-0.7rem;left:1.2rem;font-size:.7rem;font-weight:700;padding:.2rem .6rem;border-radius:999px;background:var(--band);color:#fff}
+  .svc .tag.new{background:var(--accent)}
+  .svc-name{font-size:1.15rem;font-weight:700}
+  .svc-desc{color:var(--muted);font-size:.9rem;margin:.3rem 0 .9rem}
+  .svc-price{font-size:1.3rem;font-weight:800;margin-bottom:1rem}
+  .svc-price small{font-size:.85rem;color:var(--muted);font-weight:500}
+  .svc .btn{margin-top:auto}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:.7rem 1.3rem;border-radius:10px;font-weight:600;font-size:.95rem;border:0;cursor:pointer;text-align:center}
+  .btn:hover{filter:brightness(1.06)}
+  .btn-alt{background:var(--band)}
+  .plan{background:#fff;border:2px solid var(--accent);border-radius:16px;padding:1.6rem 1.8rem;max-width:560px;margin:0 auto;position:relative}
+  .plan::before{content:"Для бухфирм";position:absolute;top:-0.7rem;left:1.4rem;background:var(--accent);color:#fff;font-size:.72rem;font-weight:700;padding:.2rem .7rem;border-radius:999px}
+  .plan-price{font-size:2rem;font-weight:800;margin:.4rem 0 .2rem}
+  .plan-price small{font-size:.95rem;color:var(--muted);font-weight:500}
+  .plan ul{list-style:none;margin:.9rem 0 1.3rem;padding:0;font-size:.95rem}
+  .plan li{padding:.4rem 0;border-bottom:1px dashed var(--line)}
+  .plan li:last-child{border-bottom:0}
+  .order{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1.6rem;text-align:center}
+  .contacts{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1.5rem;font-size:.95rem}
+  .note{color:var(--muted);font-size:.8rem;margin-top:1.6rem}
+  @media(max-width:640px){.brand{font-size:2rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">Мега<span>бухгалтерия</span></div>
+    <p class="tagline">Готовые бухгалтерские сервисы для малого бизнеса и аутсорса. Один сайт — все задачи бухгалтера.</p>
+    <div class="badges">
+      <span class="badge">Налоговый календарь</span>
+      <span class="badge">Проверка ОСВ</span>
+      <span class="badge">Реквизиты</span>
+      <span class="badge">Ревью договоров</span>
+      <span class="badge">Документы по ГОСТ</span>
+    </div>
+  </header>
+  <section>
+    <h2 class="center">Услуги</h2>
+    <div class="grid">
+      <div class="svc">
+        <span class="tag">Популярно</span>
+        <div class="svc-name">Налоговый календарь 2026</div>
+        <div class="svc-desc">Персональный график, что и когда сдавать и платить, с переносами по ст. 6.1 НК РФ. .xlsx + .ics.</div>
+        <div class="svc-price">2 900 ₽<small> / год</small></div>
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScp2HCMKtiJmO_9_milbK53VyJl352QWmJmy4LXdggK6ZhoXw/viewform" target="_blank" rel="noopener">Заказать</a>
+      </div>
+      <div class="svc">
+        <span class="tag new">Новое</span>
+        <div class="svc-name">Проверка ОСВ из 1С</div>
+        <div class="svc-desc">Загрузите оборотно-сальдовую ведомость — сервис найдёт «красные сальдо», разбаланс и аномалии, пришлёт отчёт.</div>
+        <div class="svc-price">от 490 ₽<small> / проверка</small></div>
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScp2HCMKtiJmO_9_milbK53VyJl352QWmJmy4LXdggK6ZhoXw/viewform" target="_blank" rel="noopener">Заказать</a>
+      </div>
+      <div class="svc">
+        <div class="svc-name">Проверка реквизитов</div>
+        <div class="svc-desc">ИНН, ОГРН, СНИЛС, счёт и БИК — проверка по контрольным числам + карточка контрагента.</div>
+        <div class="svc-price">от 150 ₽<small> / проверка</small></div>
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScp2HCMKtiJmO_9_milbK53VyJl352QWmJmy4LXdggK6ZhoXw/viewform" target="_blank" rel="noopener">Заказать</a>
+      </div>
+      <div class="svc">
+        <div class="svc-name">Ревью договора</div>
+        <div class="svc-desc">Загрузите .docx — разбор существенных условий и рисков по ГК РФ с рекомендациями.</div>
+        <div class="svc-price">от 990 ₽<small> / документ</small></div>
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScp2HCMKtiJmO_9_milbK53VyJl352QWmJmy4LXdggK6ZhoXw/viewform" target="_blank" rel="noopener">Заказать</a>
+      </div>
+      <div class="svc">
+        <div class="svc-name">Документы по ГОСТ 7.0.97</div>
+        <div class="svc-desc">Приказ, письмо, протокол, служебная записка по ГОСТ Р 7.0.97-2016 — правильные реквизиты и поля.</div>
+        <div class="svc-price">от 390 ₽<small> / документ</small></div>
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScp2HCMKtiJmO_9_milbK53VyJl352QWmJmy4LXdggK6ZhoXw/viewform" target="_blank" rel="noopener">Заказать</a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2 class="center">Пакет для бухфирм</h2>
+    <div class="plan">
+      <div class="plan-price">12 000 ₽<small> / год</small></div>
+      <ul>
+        <li>Все календари (ООО/ИП, ОСНО/УСН, с/без работников)</li>
+        <li>Проверки ОСВ — до 20 в месяц</li>
+        <li>Проверка реквизитов — без ограничений</li>
+        <li>Обновления при изменениях НК РФ</li>
+        <li><b>Приоритетная поддержка</b></li>
+      </ul>
+      <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScp2HCMKtiJmO_9_milbK53VyJl352QWmJmy4LXdggK6ZhoXw/viewform" target="_blank" rel="noopener">Оформить</a>
+    </div>
+  </section>
+  <section>
+    <h2 class="center">Как оплатить и получить</h2>
+    <div class="order">
+      <p style="margin:.2rem 0 .6rem;color:var(--muted)">Оставьте заявку — я свяжусь и согласуем оплату. Для самозанятого — <b>СБП переводом</b> удобным способом.</p>
+      <p style="margin:0 0 1rem;color:var(--muted)">После оплаты вышлю файл/отчёт на вашу почту и <b>чек из «Мой налог»</b>.</p>
+      <a class="btn btn-alt" href="https://docs.google.com/forms/d/e/1FAIpQLScp2HCMKtiJmO_9_milbK53VyJl352QWmJmy4LXdggK6ZhoXw/viewform" target="_blank" rel="noopener">Отправить заявку</a>
+    </div>
+  </section>
+  <section>
+    <h2>Контакты</h2>
+    <div class="contacts">
+      <p style="margin:0 0 .4rem">📧 <a href="mailto:kopalex@inbox.ru">kopalex@inbox.ru</a></p>
+      <p style="margin:0">💳 Оплата — СБП / перевод. После оплаты — файл и чек из «Мой налог».</p>
+    </div>
+  </section>
+  <p class="note">Данные актуальны на июль 2026. Покрываются типовые федеральные формы; отраслевые и региональные налоги уточняйте у бухгалтера. Сервисы — план-напоминалка и инструмент, а не консультация; обязанность платить налоги и суммы определяет бухгалтер.</p>
+</div>
+</body>
+</html>

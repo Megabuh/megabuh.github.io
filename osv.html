@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Проверка ОСВ из 1С — Мегабухгалтерия</title>
+<style>
+  :root{--bg:#f3f6fa;--ink:#172536;--muted:#5b6b7d;--accent:#1f6b4a;--accent-soft:#e6f2ec;--band:#24567a;--line:#dbe3ee;--gold:#b8860b}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+  .wrap{max-width:900px;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+  a{color:var(--accent)}
+  header{text-align:center;padding-bottom:1.2rem}
+  .back{display:inline-block;background:#fff;border:1px solid var(--line);border-radius:999px;padding:.35rem .9rem;font-size:.82rem;color:var(--muted);text-decoration:none;margin-bottom:1rem}
+  h1{font-size:2rem;line-height:1.15;margin:.3rem 0 .5rem}
+  h2{font-size:1.3rem;margin:0 0 1rem}
+  .sub{color:var(--muted);font-size:1.05rem;max-width:620px;margin:0 auto}
+  section{margin:2.2rem 0}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1.4rem 1.5rem}
+  .drop{border:2px dashed var(--line);border-radius:12px;padding:2rem;text-align:center;cursor:pointer;background:var(--accent-soft);color:var(--muted)}
+  .drop:hover{border-color:var(--accent)}
+  .drop b{color:var(--accent)}
+  .drop input{display:none}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:.75rem 1.4rem;border-radius:10px;font-weight:600;font-size:.98rem;border:0;cursor:pointer;text-align:center}
+  .btn:hover{filter:brightness(1.06)}
+  .btn:disabled{opacity:.6;cursor:not-allowed}
+  .pay{display:none;background:#fff;border:2px solid var(--accent);border-radius:16px;padding:1.6rem;text-align:center;margin-top:1rem}
+  .pay.show{display:block}
+  .pay .amount{font-size:2rem;font-weight:800;margin:.4rem 0}
+  .pay p{color:var(--muted);margin:.3rem 0 1.2rem}
+  .spinner{display:none;margin-top:1rem;color:var(--muted)}
+  .result{margin-top:1rem;display:none}
+  .result.show{display:block}
+  table{border-collapse:collapse;width:100%;font-size:.92rem}
+  th,td{padding:.6rem .7rem;border-bottom:1px solid var(--line);text-align:left}
+  th{background:var(--accent-soft);font-weight:600}
+  td.ok{color:var(--accent);font-weight:600}
+  td.bad{color:#b42318;font-weight:600}
+  .sumline{margin:.6rem 0;font-size:.95rem}
+  .note{color:var(--muted);font-size:.8rem;margin-top:1.4rem}
+  @media(max-width:640px){h1{font-size:1.6rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="back" href="index.html">← Мегабухгалтерия</a><br>
+    <h1>Проверка ОСВ из 1С</h1>
+    <p class="sub">Загрузите оборотно-сальдовую ведомость (.csv/.txt из 1С) — проверим баланс, «красные сальдо» и ошибки арифметики прямо на экране.</p>
+  </header>
+
+  <section>
+    <h2>Загрузить файл</h2>
+    <div class="card">
+      <div class="drop" id="drop">
+        <b>Нажмите или перетащите файл</b><br>
+        .csv или .txt — выгрузка ОСВ из 1С
+        <input type="file" id="file" accept=".csv,.txt">
+      </div>
+      <div class="spinner" id="spin">Проверяем…</div>
+      <div class="pay" id="pay">
+        <div class="amount">490 ₽</div>
+        <p>Получите результат проверки и разбор найденных проблем.</p>
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdb_N9cOBOY6Ch4CEuRuPWRiju9ehNmEI8LEUpsbWCeT0iSqQ/viewform" target="_blank" rel="noopener" id="payBtn">Оставить заявку на проверку</a>
+        <p style="font-size:.82rem;margin-top:.8rem">Оплата — по СБП. Реквизиты пришлю после заявки. После оплаты — чек из «Мой налог».</p>
+      </div>
+      <div class="result" id="res"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Что проверяем</h2>
+    <div class="card">
+      <table>
+        <tbody>
+          <tr><td><b>Сбалансированность</b></td><td>итоговые обороты и сальдо Дт = Кт</td></tr>
+          <tr><td><b>Арифметика</b></td><td>конечное сальдо = начальное + обороты по каждому счёту</td></tr>
+          <tr><td><b>«Красные сальдо»</b></td><td>кредитовый остаток по кассе/банку/материалам</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--muted);font-size:.85rem;margin:.8rem 0 0">.xlsx пока не распознаётся в браузере — сохраните выгрузку как .csv («Файл → Сохранить как»).</p>
+    </div>
+  </section>
+
+  <p class="note">Проверка математическая, подтверждает корректность, но не заменяет аудит. «Красное сальдо» по авансам (60.02, 62.02) не считается ошибкой.</p>
+</div>
+
+<script>
+var ACCT={};
+(function(){var A={"01":"А","02":"П","03":"А","04":"А","05":"П","07":"А","08":"А","09":"А","10":"А","11":"А","14":"П","15":"А","16":"АП","19":"А","20":"А","21":"А","23":"А","25":"А","26":"А","28":"А","29":"А","40":"АП","41":"А","42":"П","43":"А","44":"А","45":"А","46":"А","50":"А","51":"А","52":"А","55":"А","57":"А","58":"А","59":"П","60":"АП","62":"АП","63":"П","66":"П","67":"П","68":"АП","69":"АП","70":"П","71":"АП","73":"АП","75":"АП","76":"АП","77":"П","79":"АП","80":"П","81":"А","82":"П","83":"П","84":"АП","86":"П","90":"АП","91":"АП","94":"А","96":"П","97":"А","98":"П","99":"АП"};for(var k in A)ACCT[k]=A[k];})();
+function parseNum(s){s=String(s==null?'':s).trim();if(!s)return null;if(!/^[()-]?[0-9][0-9\s\u00a0\u202f]*(?:[.,][0-9]+)?[)]?$/.test(s))return null;var neg=/^\(.*\)$/.test(s);s=s.replace(/[()]/g,'').replace(/[\s\u00a0\u202f]/g,'').replace(',','.');if(!/^-?[0-9]+(\.[0-9]+)?$/.test(s))return null;var f=Number(s);if(!isFinite(f))return null;return neg?-f:f;}
+function parseCsv(text){var rows=[],row=[],field='',i=0;while(i<text.length){var ch=text[i];if(ch==='"'){i++;var f='';while(i<text.length){var c2=text[i];if(c2==='"'&&text[i+1]==='"'){f+='"';i+=2;}else if(c2==='"'){i++;break;}else{f+=c2;i++;}}row.push(f);if(text[i]===';'||text[i]===','||text[i]==='\t'){i++;}else if(text[i]==='\r'||text[i]==='\n'){rows.push(row);row=[];if(text[i]==='\r'&&text[i+1]==='\n')i++;i++;}}else{var s='';while(i<text.length){var c=text[i];if(c===';'||c===','||c==='\t'){row.push(s);i++;break;}else if(c==='\n'||c==='\r'){row.push(s);rows.push(row);row=[];if(c==='\r'&&text[i+1]==='\n')i++;i++;break;}else if(c==='"'){row.push(s);break;}else{s+=c;i++;}}if(i>=text.length&&(s!==''||row.length)){row.push(s);}}row=row;}return rows;}
+function detectDelim(text){var s=text.slice(0,4000);var semi=(s.match(/;/g)||[]).length,comma=(s.match(/,/g)||[]).length,tab=(s.match(/\t/g)||[]).length;return semi>=comma&&semi>=tab?';':tab>comma?'\t':',';}
+function rowOf(row){return row.map(function(c){return String(c==null?'':c);});}
+function detectReport(rows){var raw=rows.slice(0,12).map(rowOf).map(function(r){return r.join(' ');}).join(' ').toLowerCase();var period=null;var m=raw.match(/за\s+([^\n]+?(?:\d{4}\s*г?\.?|\d{4}))/);if(m)period=m[1].trim();if(raw.indexOf('оборотно-сальдовая')>=0)return {type:'ОСВ',period:period};if(raw.indexOf('карточка счёта')>=0)return {type:'Карточка счёта',period:period};return {type:'Таблица',period:period};}
+var ACC_RE=/^\d{2,3}(\.\d{1,2}|\.[А-ЯA-Z]{1,3})*$/;
+function findDtKt(rows,hi){for(var r=hi;r<Math.min(hi+3,rows.length);r++){var cols=[];rows[r].forEach(function(c,i){var t=String(c).trim().toLowerCase().replace(/\.+$/,'');if(t==='дт'||t==='дебет')cols.push(i);else if(t==='кт'||t==='кредит')cols.push(i);});if(cols.length>=6)return cols.slice(0,6);}return null;}
+function parseOsv(rows){var hi=null;for(var i=0;i<rows.length;i++){if(rows[i].some(function(c){return /^сч[её]т/.test(String(c).trim().toLowerCase());})){hi=i;break;}}if(hi===null)return null;var cols=findDtKt(rows,hi);var ti=null;for(var j=rows.length-1;j>hi;j--){if(rows[j].some(function(c){return String(c).toLowerCase().indexOf('итог')>=0;})){ti=j;break;}}if(cols===null&&ti!==null){var nums=rows[ti].map(function(c,i){return parseNum(c)!==null?i:-1;}).filter(function(x){return x>=0;});if(nums.length>=6)cols=nums.slice(0,6);}if(cols===null)return null;function take(row){return cols.map(function(c){var v=c<row.length?parseNum(row[c]):null;return v===null?0.0:v;});}var accounts=[],details=[];var end=ti!==null?ti:rows.length;for(var r=hi+1;r<end;r++){var first=(rowOf(rows[r]).find(function(s){return s!=='';})||'');if(!first)continue;if(ACC_RE.test(first))accounts.push({account:first,values:take(rows[r])});else if(rows[r].some(function(c){return parseNum(c)!==null;}))details.push({name:first,values:take(rows[r])});}var totals=ti!==null?take(rows[ti]):null;return {accounts:accounts,details:details,totals:totals,columns:cols};}
+function osvChecks(o){var issues=[],eps=0.5,t=o.totals;function radii(f){var v=f.toFixed(2);return v.replace('.',',');}if(t){if(Math.abs(t[2]-t[3])>eps)issues.push('Итоговые обороты не сходятся: Дт '+radii(t[2])+' ≠ Кт '+radii(t[3])+' (разница '+radii(t[2]-t[3])+') — ведомость несбалансирована');if(Math.abs(t[0]-t[1])>eps)issues.push('Начальное сальдо не сбалансировано: Дт '+radii(t[0])+' ≠ Кт '+radii(t[1]));if(Math.abs(t[4]-t[5])>eps)issues.push('Конечное сальдо не сбалансировано: Дт '+radii(t[4])+' ≠ Кт '+radii(t[5]));}
+for(var x of o.accounts){var v=x.values;if(Math.abs(v[4]-v[5]-(v[0]-v[1]+(v[2]-v[3])))>eps)issues.push('Счёт '+x.account+': конечное сальдо не бьётся с арифметикой (нач + обороты ≠ кон)');var base=x.account.split('.')[0];var typ=ACCT[base];if(typ==='А'&&v[5]>eps&&v[4]<eps)issues.push('Счёт '+x.account+': КРАСНОЕ САЛЬДО — кредитовый остаток '+radii(v[5])+' на активном счёте');if(typ==='П'&&v[4]>eps&&v[5]<eps)issues.push('Счёт '+x.account+': красное сальдо — дебетовый остаток '+radii(v[4])+' на пассивном счёте');}return issues;}
+function ruDate(){return new Date().toLocaleDateString('ru-RU');}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+var pending=null;
+document.getElementById('drop').onclick=function(){document.getElementById('file').click();};
+document.getElementById('file').onchange=function(){readFile(this.files[0]);};
+function readFile(f){if(!f)return;var rd=new FileReader();rd.onload=function(e){var text=String(e.target.result);if(f.name&&/\.xlsx$/.test(f.name)){document.getElementById('res').innerHTML='<p style="color:var(--muted)">Файл .xlsx пока не распознаётся в браузере. Сохраните выгрузку как .csv («Файл → Сохранить как») и загрузите снова.</p>';document.getElementById('res').classList.add('show');return;}var rows=parseCsv(text.replace(/^\uFEFF/,''));var rep=detectReport(rows);var osv=null;if(rep.type==='ОСВ')osv=parseOsv(rows);if(!osv){document.getElementById('res').innerHTML='<p style="color:var(--muted)">Не удалось распознать структуру ОСВ. Проверьте, что это выгрузка «Оборотно-сальдовая ведомость» .csv/.txt.</p>';document.getElementById('res').classList.add('show');return;}var issues=osvChecks(osv);pending={issues:issues,accounts:osv.accounts,totals:osv.totals,period:rep.period};document.getElementById('res').classList.remove('show');document.getElementById('pay').classList.add('show');document.getElementById('pay').scrollIntoView({behavior:'smooth',block:'center'});};rd.readAsText(f);}
+</script>
+</body>
+</html>

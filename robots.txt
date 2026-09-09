@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://megabuh.github.io/sitemap.xml
